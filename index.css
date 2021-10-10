@@ -1,0 +1,110 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+}
+@media (min-width: 768px) {
+  .container-1 {
+    display: flex;
+    /* align-items: flex-start;
+          align-items: flex-end;
+          align-items: center;
+          align-items: stretch;
+          flex-direction: column;
+          align-items: baseline; */
+    background-color: #fff;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container-2 {
+    display: flex;
+    /* justify-content: flex-start;
+        justify-content: flex-end;
+        justify-content: center;
+        justify-content: space-around; */
+    justify-content: space-between;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+body {
+  background-color: lightyellow;
+}
+.container-4 {
+  display: flex;
+  justify-content: center;
+  color: goldenrod;
+}
+.container-1 div,
+.container-2 div,
+.container-3 div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.box-1 {
+  flex: 1;
+  order: 1;
+  color: chocolate;
+}
+.box-2 {
+  flex: 1;
+  order: 2;
+  color: green;
+}
+.box-3 {
+  flex: 1;
+  order: 2;
+  color: darkorange;
+}
+
+.box-4 {
+  flex: 1;
+  color: cornflowerblue;
+}
+.container-2-box1 {
+  flex-basis: 49%;
+  color: darkblue;
+  background-color: #fff;
+}
+.container-2-box2 {
+  flex-basis: 49%;
+  color: deeppink;
+  background-color: #fff;
+}
+.container-2-box3 {
+  flex-basis: 49%;
+  color: darkorchid;
+  background-color: #fff;
+}
+.container-3-box1 {
+  flex-basis: 15%;
+  color: magenta;
+}
+.container-3-box2 {
+  flex-basis: 15%;
+  color: brown;
+}
+.container-3-box3 {
+  flex-basis: 15%;
+  color: lightcoral;
+}
+.container-3-box4 {
+  flex-basis: 15%;
+  color: maroon;
+}
+.container-3-box5 {
+  flex-basis: 15%;
+  color: indigo;
+}
+.container-3-box6 {
+  flex-basis: 15%;
+  color: navy;
+}
